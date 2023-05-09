@@ -25,7 +25,7 @@ public class test {
     }
     List<Integer> ans=new ArrayList<>();
     public int solution(List<List<Integer>> arr) {
-        // 在这⾥写代码
+
         DFS(0,0,arr,0);
         Collections.sort(ans);
         return ans.get(0);
